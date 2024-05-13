@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/action_search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/item_arch"
+
+            android:title="Archieved List"/>
+
+
+
+<!--        <item-->
+<!--            android:id="@+id/item_unarchieved"-->
+<!--            android:title="unarchieved list"-->
+<!--            />-->
+
+        <!--        <item-->
+        <!--            android:id="@+id/item_noti"-->
+        <!--            android:title="Notification"-->
+        <!--            android:icon="@drawable/baseline_notifications_24"/>-->
+        <!--        <item-->
+        <!--            android:id="@+id/item_theme"-->
+        <!--            android:title="Theme" >-->
+        <!--            <menu>-->
+        <!--                <item-->
+        <!--                    android:id="@+id/item_light"-->
+        <!--                    android:iconTint="@color/design_default_color_on_primary"-->
+        <!--                    android:title="Light" />-->
+        <!--                <item-->
+        <!--                    android:id="@+id/item_dark"-->
+        <!--                    android:iconTint="@color/design_default_color_on_primary"-->
+        <!--                    android:title="Dark" />-->
+        <!--            </menu>-->
+        <!--        </item>-->
+
+
+    </group>
+</menu>

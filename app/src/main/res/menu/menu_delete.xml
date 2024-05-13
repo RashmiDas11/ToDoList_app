@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_delete_sweep_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <group android:id="@+id/group">
+    <item
+        android:id="@+id/item_share"
+        android:title="Share"
+        />
+        <item
+            android:id="@+id/action_archieve"
+            android:title="archieve"/>
+<!--            <item-->
+<!--                android:id="@+id/item_done"-->
+<!--                android:title="Done"-->
+<!--                />-->
+
+
+<!--            android:icon="@drawable/baseline_archive_24"-->
+<!--            app:showAsAction="ifRoom"/>-->
+
+    </group>
+</menu>
